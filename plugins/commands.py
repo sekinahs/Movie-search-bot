@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('More Bots', url='https://t.me/GD_FILMCLUB')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -98,9 +98,17 @@ async def start(bot, cmd):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
+                    
+                    [
+                        InlineKeyboardButton("🎙  Add Me To Your Group ➕", url="https://t.me/Kirthi_mediafilterbot?startgroup=true"),
+                    ],
+                    [
+                        InlineKeyboardButton("🗣️Group", url="https://telegram.dog/KicchaRequest"),
+                        InlineKeyboardButton("📃 Channel", url="https://telegram.dog/GD_FILMCLUB"),
+                    ],
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("✳️ Collection", url="https://t.me/KR_ROCKERS_DVD_WEB_OTT_MOVIES")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +200,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('Update Channel', url='https://t.me/GD_FILMCLUB'),
+            InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>○ My Boss : <a href='https://t.me/sachin_official_admin'>Sachin S</a>\n○ Language :  <code>Kannada</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n○ Supported Site : <a href='https://my.telegram.org/'>Only Telegram</a>\n○ Server : <a href='https://herokuapp.com/'>Heroku</a>\n○ Database : <a href='https://www.mongodb.com/'>MangoDB</a>\nRequest Group : <a href='https://t.me/KicchaRequest'>Kiccha Request</a>\nUpdate Channel : <a href='https://t.me/GD_FILMCLUB'>GD_FILMCLUB</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
