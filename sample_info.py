@@ -23,6 +23,10 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
+await cmd.reply_photo(
+photo="https://telegra.ph/file/2fc48080747814a69bbac.jpg",
+caption=f" Your Caption ",
+     reply_markup=InlineKeyboardMarkup(
 **Hi, I'm Media Search bot**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
