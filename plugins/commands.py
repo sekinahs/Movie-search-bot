@@ -97,6 +97,10 @@ async def start(bot, cmd):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
+            await cmd.reply_photo(
+photo="https://telegra.ph/file/2fc48080747814a69bbac.jpg",
+caption=f" Your Caption ",
+     reply_markup=InlineKeyboardMarkup(
                 [
                     
                     [
