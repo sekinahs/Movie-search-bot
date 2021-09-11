@@ -1,4 +1,4 @@
-# Modified Version Of [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# Modified Version Of [Media Search bot](https://github.com/sachin9742s/Media-Search-bot)
 
 ## Added Features
 * Imdb posters for autofilter.
@@ -13,7 +13,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/subinps/Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sachin9742s/Media-Search-bot)
 ### Hard Way
 
 ```bash
