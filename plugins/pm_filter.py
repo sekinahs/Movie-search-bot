@@ -56,10 +56,11 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"🎬[{get_size(file.file_size)}] ⎇ 📁{file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}")]
+                    [InlineKeyboardButton(callback_data=f"sachin9742s#{file_id}")]
                     )
         else:
-            await client.send_sticker(chat_id=message.from_user.id, sticker='CAADBQADMwIAAtbcmFelnLaGAZhgBwI')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAIFNWFEzuIuzExr0aFG23qMtd7Z6NuSAALYDgACbKy4S3x0xJsbYPWIIAQ')
             return
 
         if not btn:
@@ -122,7 +123,8 @@ async def group(client, message):
                 file_id = file.file_id
                 filename = f"🎬[{get_size(file.file_size)}] ⥤ 📁 {file.file_name} ☬"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}")]
+                    [InlineKeyboardButton(url=f"https://telegram.dog/{nyva}?start=sachin9742s_-_-_-_{file_id}")]
                 )
         else:
             return
