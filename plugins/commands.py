@@ -67,10 +67,10 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔰CHANNEL🔰', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+                        InlineKeyboardButton('🔰CHANNEL🔰', url='https://t.me/housefull_links')
                     ],
                     [
-                        InlineKeyboardButton('🎭GROUP🎭', url='https://t.me/PCLinks')
+                        InlineKeyboardButton('🎭GROUP🎭', url='https://t.me/hf_links')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -108,14 +108,14 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 🛠️", url="https://t.me/Sanoob_Achu_18")
+                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 🛠️", url="https://t.me/Saminsumesh")
                     ],
                     [
-                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🤗", url="https://t.me/Sanoob_Achu_18"),
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🤗", url="https://t.me/Saminsumesh"),
                         InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("❕ 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 ❕", url="https://t.me/Sanoob_Achu_18")
+                        InlineKeyboardButton("❕ 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 ❕", url="https://t.me/saminsumesh")
                     ]    
                 ]
             )
