@@ -203,9 +203,9 @@ async def delete(bot, message):
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [[
-            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋💗', url='https://t.me/joinchat/AK1vv2n8AZ41NmY1'),
-            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏⭕️', url='https://t.me/PCLinks')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋💗', url='https://t.me/housefull_films_official'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏⭕️', url='https://t.me/HF_Links')
         ],[
-            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒🎻', url='https://t.me/ottmovies_updates')
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒🎻', url='https://t.me/housefull_ottupdates')
         ]]
     await message.reply(text="<b><u>😁എന്തിനാ മോനെ ഇത്രേം സാഹസം കാണിച്ചത് 📃Source Code📃 ന് വേണ്ടിയാണോ🙄ന്തയാലും ഇവിടെ വരെ വന്നില്ലേ🤔 ചാനലിലും ഗ്രൂപ്പിലുമൊക്കെ ജോയിൻ😛 ചെയ്തിട്ട് പൊക്കോ🚶🤧</u></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
