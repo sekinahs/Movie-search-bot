@@ -273,12 +273,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🔰Channel🔰', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1'),
-                    InlineKeyboardButton('🎭Group🎭', url='https://t.me/PCLinks')
+                    InlineKeyboardButton('🔰Channel🔰', url='https://t.me/housefull_links'),
+                    InlineKeyboardButton('🎭Group🎭', url='https://t.me/hf_links')
                 ]
                 ]
-            await query.message.edit(text=f"<b>💞Devoloper💞 : <a href='https://t.me/Sanoob_Achu_18'>അച്ചു Vj</a>\nLanguage : മലയാളം🤭\n😎Source Code😎 :സാധനം പുറത്ത് കൊടുക്കുന്നില്ല കേട്ടോ 😁\n🔰Channel🔰 : <a href='https://t.me/ottmovies_updates'>📽️OTT UPDATES📽️</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-
+            await query.message.edit(text=f"<b>💞Devoloper💞 : <a href='https://t.me/Saminsumesh'>Paulwalker™</a>\nLanguage : Python 3\n😎Source Code😎 :Ath okke veno 😁\n🔰Channel🔰 : <a href='https://t.me/housefull_ottupdates'>📽️OTT UPDATES📽️</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
         elif query.data.startswith("subinps"):
@@ -329,8 +328,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
-                    ]
+                    
+                    
                     ]
                 
                 await query.answer()
